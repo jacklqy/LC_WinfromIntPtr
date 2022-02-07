@@ -1,4 +1,7 @@
 # LC_WinfromIntPtr
+
+![image](https://user-images.githubusercontent.com/26539681/152757388-26ccc081-2564-4306-a28b-1f48e0bc27cf.png)
+
 C# 获得窗体句柄并发送消息（利用windows API可在不同进程中获取）
 
 /// <summary>

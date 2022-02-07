@@ -35,7 +35,7 @@ private static extern int SendMessage(IntPtr hwnd, uint wMsg, int wParam, int lP
 //窗口发送给按钮控件的消息，让按钮执行点击操作，可以模拟按钮点击
 private const int BM_CLICK = 0xF5;
 
-
+'''
 private void Form1_Load(object sender, EventArgs e)
        {
            Task task = new Task(() =>
@@ -57,3 +57,4 @@ private void Form1_Load(object sender, EventArgs e)
  
            task.Start();
        }
+'''
